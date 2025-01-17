@@ -15,19 +15,37 @@ namespace SRP
             Console.WriteLine("Enter Customer Type");
             string CustomerType = Console.ReadLine().ToUpper();
 
-            Customer c = new Customer();
+            Customer c = null;
             if (CustomerType == "SILVER")
             {
-                c.Insert();
+                c = new SilverCustomer();
+            }
+            else if(CustomerType == "GOLD")
+            {
+                c = new GoldCustomer();
+            }
+
+            else if (CustomerType == "PLATINUM")
+            {
+                c = new PlatinumCustomer();
+            }
+
+            else if (CustomerType == "ENQUIRY")
+            {
+                c = new Enquiry();
+            }
+
+            if (c != null)
+            {
+                c.ShowsTiming();
+                c.printTicket();
             }
             else
             {
-                c.Insert();
+                Console.WriteLine("Invalid Customer");
             }
 
-
-          
-
+       
 
 
 

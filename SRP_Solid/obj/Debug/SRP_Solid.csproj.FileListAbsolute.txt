@@ -1,0 +1,8 @@
+D:\Parmesh Git\SRP_Solid\bin\Debug\Logs\Error.txt
+D:\Parmesh Git\SRP_Solid\bin\Debug\SRP_Solid.exe.config
+D:\Parmesh Git\SRP_Solid\bin\Debug\SRP_Solid.exe
+D:\Parmesh Git\SRP_Solid\bin\Debug\SRP_Solid.pdb
+D:\Parmesh Git\SRP_Solid\obj\Debug\SRP_Solid.csproj.AssemblyReference.cache
+D:\Parmesh Git\SRP_Solid\obj\Debug\SRP_Solid.csproj.CoreCompileInputs.cache
+D:\Parmesh Git\SRP_Solid\obj\Debug\SRP_Solid.exe
+D:\Parmesh Git\SRP_Solid\obj\Debug\SRP_Solid.pdb

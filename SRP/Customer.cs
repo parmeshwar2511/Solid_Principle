@@ -50,14 +50,22 @@ namespace SRP
         //    }
         //}
 
-        public abstract int GetTicketAmount();
+       // public abstract int GetTicketAmount();
 
         public void ShowsTiming()
         {
             Console.WriteLine("*** All TODAYS Show ***");
         }
-        public abstract void printTicket();
+
+
+       // public abstract void printTicket();
         
+    }
+
+    public abstract class Customer1
+    {
+
+        public abstract void PrintTicket();
     }
     public class SilverCustomer : Customer
     {
@@ -85,8 +93,30 @@ namespace SRP
         }
     }
 
+    public class PlatinumCustomer : Customer
+    {
+        public override int GetTicketAmount()
+        {
+             return 500;
+        }
 
+        public override void printTicket()
+        {
+            Console.WriteLine("platinum Ticket Printed");
+        }
+    }
+    public class Enquiry : Customer
+    {
+        public override int GetTicketAmount()
+        {
+            throw new NotImplementedException();
+        }
 
+        public override void printTicket()
+        {
+            throw new NotImplementedException();
+        }
+    }
 
 }
 

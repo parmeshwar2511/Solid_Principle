@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SRP
+namespace SRP_Solid
 {
-    public  class fileLogger
+    public  class FileLogger
     {
         public void Log(string message)
         {

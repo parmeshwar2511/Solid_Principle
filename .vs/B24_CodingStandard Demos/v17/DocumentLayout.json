@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Parmesh Git\\Solid_Principle\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C6D182-5E69-4D59-B3C6-02F22434A944}|..\\SRP_Solid\\SRP_Solid.csproj|d:\\parmesh git\\srp_solid\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C6D182-5E69-4D59-B3C6-02F22434A944}|..\\SRP_Solid\\SRP_Solid.csproj|d:\\parmesh git\\srp_solid\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C6D182-5E69-4D59-B3C6-02F22434A944}|..\\SRP_Solid\\SRP_Solid.csproj|d:\\parmesh git\\srp_solid\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FileLogger.cs",
+              "DocumentMoniker": "D:\\Parmesh Git\\SRP_Solid\\FileLogger.cs",
+              "RelativeDocumentMoniker": "..\\SRP_Solid\\FileLogger.cs",
+              "ToolTip": "D:\\Parmesh Git\\SRP_Solid\\FileLogger.cs",
+              "RelativeToolTip": "..\\SRP_Solid\\FileLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T17:32:38.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Parmesh Git\\SRP_Solid\\Customer.cs",
+              "RelativeDocumentMoniker": "..\\SRP_Solid\\Customer.cs",
+              "ToolTip": "D:\\Parmesh Git\\SRP_Solid\\Customer.cs",
+              "RelativeToolTip": "..\\SRP_Solid\\Customer.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAH0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T16:43:14.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Parmesh Git\\SRP_Solid\\Program.cs",
+              "RelativeDocumentMoniker": "..\\SRP_Solid\\Program.cs",
+              "ToolTip": "D:\\Parmesh Git\\SRP_Solid\\Program.cs",
+              "RelativeToolTip": "..\\SRP_Solid\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T16:42:02.688Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
