@@ -1,0 +1,7 @@
+D:\Parmesh Git\Solid_Principle\FactoryDesign_Pattern\bin\Debug\FactoryDesign_Pattern.exe.config
+D:\Parmesh Git\Solid_Principle\FactoryDesign_Pattern\bin\Debug\FactoryDesign_Pattern.exe
+D:\Parmesh Git\Solid_Principle\FactoryDesign_Pattern\bin\Debug\FactoryDesign_Pattern.pdb
+D:\Parmesh Git\Solid_Principle\FactoryDesign_Pattern\obj\Debug\FactoryDesign_Pattern.csproj.AssemblyReference.cache
+D:\Parmesh Git\Solid_Principle\FactoryDesign_Pattern\obj\Debug\FactoryDesign_Pattern.csproj.CoreCompileInputs.cache
+D:\Parmesh Git\Solid_Principle\FactoryDesign_Pattern\obj\Debug\FactoryDesign_Pattern.exe
+D:\Parmesh Git\Solid_Principle\FactoryDesign_Pattern\obj\Debug\FactoryDesign_Pattern.pdb

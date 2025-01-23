@@ -1,122 +1,150 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SRP
+namespace SRP_Solid
 {
-    // it Will deal with all Customer Operations
     public abstract class Customer
     {
-        //  public string CustomerType { get; set; }
 
 
-        // three types of work
-        // 1. Inserting Customer to Db
-        // 2. checking for Exception
-        // 3. logging exception message  to text file 
-        //public void Insert()
-        //{
+        public string customerType { get; set; }
+        /* public void Insert()
+         {
+             try
+             {
+                 int a = 10, b = 0;
+                 Console.WriteLine(a);
+                 int x = a / b;
 
-        //    try
-        //    {
-        //        int a = 10, b = 0;
-        //        int c = a / b;
-        //        // ado.net code / ef to insert customer to database
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        //  File.AppendAllText(@"Logs/errors.txt", $"{ex.Message}\n");
-        //        fileLogger logger = new fileLogger();
-        //        logger.Log(ex.Message);
-        //    }
-        //}
 
-        //public void Update()
-        //{
+             }
+             catch (Exception ex) {
 
-        //    try
-        //    {
-        //        int a = 10, b = 0;
-        //        int c = a / b;
-        //        // ado.net code / ef to insert customer to database
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        File.AppendAllText(@"Logs/errors.txt", $"{ex.Message}\n");
-        //    }
-        //}
+                 // single responsibility
+                FileLogger fileLogger = new FileLogger();
+                 fileLogger.Log(ex.Message);
+             }
+         }
 
-       // public abstract int GetTicketAmount();
+         public void Update()
+         {
+             try
+             {
+                 int a = 10, b = 0;
+                 Console.WriteLine(a);
+                 int x = a / b;
 
+
+             }
+             catch (Exception ex)
+             {
+
+                 File.AppendAllText(@"logs/Error.txt", $"{ex.Message}\n");
+             }
+         }*/
+
+        // public abstract int GetTicketAmount();
         public void ShowsTiming()
         {
-            Console.WriteLine("*** All TODAYS Show ***");
+            Console.WriteLine("*** All Todays Shows ***");
         }
 
-
-       // public abstract void printTicket();
-        
+        //  public abstract void PrintTicket();
     }
 
-    public abstract class Customer1
+    //LSP  =>  replace abstract to interface
+    public interface ICustomer
     {
+        int GetTicketAmount();
+        void PrintTicket();
 
-        public abstract void PrintTicket();
-    }
-    public class SilverCustomer : Customer
-    {
-        public override int GetTicketAmount()
-        {
-            return 100;
-        }
+        //not add here ISP
+        // void freeFood(); // existing client forced 
 
-        public override void printTicket()
-        {
-           Console.WriteLine("Silver ticket printed");
-        }
     }
 
-    public class GoldCustomer : Customer
+    // here i will manage ISP like freefood not force every person
+    public interface Icustomer1 : ICustomer
     {
-        public override int GetTicketAmount()
+        void freeFood();
+    }
+
+
+    //ocp
+    public class SilverCustomer : Customer, ICustomer
+    {
+        public int GetTicketAmount()
         {
-             return 200;
+            return 200;
         }
 
-        public override void printTicket()
+        public void PrintTicket()
+        {
+            Console.WriteLine("Silver Ticket Printed");
+        }
+    }
+    public class GoldCustomer : Customer, ICustomer
+    {
+        public int GetTicketAmount()
+        {
+            return 500;
+        }
+
+        public void PrintTicket()
         {
             Console.WriteLine("Gold Ticket Printed");
         }
     }
 
-    public class PlatinumCustomer : Customer
+    public class PlatinumCustomer : Customer, ICustomer
     {
-        public override int GetTicketAmount()
+        public int GetTicketAmount()
         {
-             return 500;
+            return 700;
         }
 
-        public override void printTicket()
+        public void PrintTicket()
         {
-            Console.WriteLine("platinum Ticket Printed");
+            Console.WriteLine("Platinum Ticket Printed");
         }
     }
+
     public class Enquiry : Customer
     {
-        public override int GetTicketAmount()
-        {
-            throw new NotImplementedException();
-        }
+        /* public override int GetTicketAmount()
+         {
+             throw new NotImplementedException();
+         }
 
-        public override void printTicket()
-        {
-            throw new NotImplementedException();
-        }
+         public override void PrintTicket()
+         {
+             throw new NotImplementedException();
+         }*/
     }
 
-}
 
+    //ISP  interface most used
+
+    //new client add existing without any forced another customer
+    public class VIPCustomer : Customer, Icustomer1
+    {
+        public int GetTicketAmount()
+        {
+
+            return 1000;
+        }
+
+        public void PrintTicket()
+        {
+            Console.WriteLine("VIP Cutomer Ticket Printed");
+        }
+
+        public void freeFood()
+        {
+            Console.WriteLine("Free Food");
+        }
+    }
+}

@@ -1,56 +1,62 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using SRP_Solid;
+using System;
 
-namespace SRP
+namespace _1_Solid_Principle
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Program Starts Here");
+            Console.WriteLine("Program Starts here....");
+            // Customer customer = new Customer();
 
+
+            //Ocp
+            // it is not good way  so use inheritance
             Console.WriteLine("Enter Customer Type");
-            string CustomerType = Console.ReadLine().ToUpper();
+            string customerType = Console.ReadLine().ToUpper();
+            /*
+               if (customerType == "SILVER")
+               {
+                   customer.Insert();
+               }else if (customerType == "Gold")
+               {
+                   customer.Insert();
+               }*/
+            //  customer.Insert();
 
-            Customer c = null;
-            if (CustomerType == "SILVER")
+            ICustomer c = null;
+
+            if (customerType == "SILVER")
             {
                 c = new SilverCustomer();
             }
-            else if(CustomerType == "GOLD")
+            else if (customerType == "GOLD")
+            {
+                c = new GoldCustomer();
+            }
+            else if (customerType == "PLATINUM")
             {
                 c = new GoldCustomer();
             }
 
-            else if (CustomerType == "PLATINUM")
-            {
-                c = new PlatinumCustomer();
-            }
-
-            else if (CustomerType == "ENQUIRY")
-            {
-                c = new Enquiry();
-            }
-
             if (c != null)
             {
-                c.ShowsTiming();
-                c.printTicket();
+                c.PrintTicket();
+
             }
             else
             {
                 Console.WriteLine("Invalid Customer");
             }
 
-       
-
-
-
-            Console.WriteLine("Programs Ends Here.. ");
+            Console.WriteLine("Program Ends here....");
             Console.ReadLine();
+
+            //    ICustomer obj = new Enquiry();
+
+
+            // why use above because  no change when new customer add we can add separte
         }
     }
 }

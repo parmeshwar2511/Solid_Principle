@@ -1,17 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
+﻿
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace SRP_Solid
 {
-    public  class FileLogger
+    // low level module
+    public  class FileLogger : ILogger
     {
         public void Log(string message)
         {
             File.AppendAllText(@"Logs/errors.txt", $"{message}\n");
+            console.WriteLine("Message logger to database");
         }
     }
 }

@@ -1,0 +1,2 @@
+D:\Parmesh Git\Solid_Principle\Crud_Demos\obj\Debug\Crud_Demos.csproj.AssemblyReference.cache
+D:\Parmesh Git\Solid_Principle\Crud_Demos\obj\Debug\Crud_Demos.csproj.CoreCompileInputs.cache
