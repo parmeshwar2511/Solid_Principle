@@ -19,7 +19,8 @@ namespace Dependecy_Crud
             container.RegisterType<ProductDbContext1>();
             container.RegisterType <ICategoryDAL, CategoryDAL>();
             container.RegisterType<ICustomerBAL, CategoryBAL>();
-            
+            container.RegisterType<IproductRepository, ProductRepositories>();
+            container.RegisterType<IProductBAL, ProductBAL>();
             DependencyResolver.SetResolver(new UnityDependencyResolver(container));
         }
     }

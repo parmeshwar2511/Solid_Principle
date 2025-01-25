@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryDesign_Pattern", "Fa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid_Principle_DB_Apo", "Solid_Principle\Solid_Principle_DB_Apo.csproj", "{84B146C4-4321-48F3-94F1-559D7F3F5D91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crud_Demos_Operations", "Crud_Demos_Using _Scafolding\Crud_Demos_Operations.csproj", "{A910162B-E376-4D6E-8B1E-A48C30F7CEC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crud_operation_Empty", "Crud_operation_Empty\Crud_operation_Empty.csproj", "{62DFD355-66E4-4427-B734-0F1FBB6859CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{84B146C4-4321-48F3-94F1-559D7F3F5D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84B146C4-4321-48F3-94F1-559D7F3F5D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84B146C4-4321-48F3-94F1-559D7F3F5D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A910162B-E376-4D6E-8B1E-A48C30F7CEC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A910162B-E376-4D6E-8B1E-A48C30F7CEC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A910162B-E376-4D6E-8B1E-A48C30F7CEC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A910162B-E376-4D6E-8B1E-A48C30F7CEC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62DFD355-66E4-4427-B734-0F1FBB6859CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62DFD355-66E4-4427-B734-0F1FBB6859CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62DFD355-66E4-4427-B734-0F1FBB6859CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62DFD355-66E4-4427-B734-0F1FBB6859CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
