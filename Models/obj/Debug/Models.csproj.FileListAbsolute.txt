@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\B24_CodingStandard\Models\bin\Debug\Models.dll
+C:\Users\DELL\source\repos\B24_CodingStandard\Models\bin\Debug\Models.pdb
+C:\Users\DELL\source\repos\B24_CodingStandard\Models\obj\Debug\Models.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\B24_CodingStandard\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\B24_CodingStandard\Models\obj\Debug\Models.dll
+C:\Users\DELL\source\repos\B24_CodingStandard\Models\obj\Debug\Models.pdb

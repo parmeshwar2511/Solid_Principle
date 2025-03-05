@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ADONETDB_10Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="category">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Rating" Type="Int32" />
+    <NavigationProperty Name="Products" Relationship="ADONETDB_10Model.FK__Product__Categor__4BAC3F29" FromRole="category" ToRole="Product" />
+  </EntityType>
+  <EntityContainer Name="ProductDbContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="categories" EntityType="Self.category" />
+    <EntitySet Name="Products" EntityType="ADONETDB_10Model.Product" />
+    <AssociationSet Name="FK__Product__Categor__4BAC3F29" Association="ADONETDB_10Model.FK__Product__Categor__4BAC3F29">
+      <End Role="category" EntitySet="categories" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="CategoryId" Type="Int32" />
+    <NavigationProperty Name="category" Relationship="ADONETDB_10Model.FK__Product__Categor__4BAC3F29" FromRole="Product" ToRole="category" />
+  </EntityType>
+  <Association Name="FK__Product__Categor__4BAC3F29">
+    <End Type="ADONETDB_10Model.category" Role="category" Multiplicity="0..1" />
+    <End Type="ADONETDB_10Model.Product" Role="Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="category">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

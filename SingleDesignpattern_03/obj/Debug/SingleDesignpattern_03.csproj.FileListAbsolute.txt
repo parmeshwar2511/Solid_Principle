@@ -1,0 +1,7 @@
+C:\Users\DELL\source\repos\B24_CodingStandard\SingleDesignpattern_03\bin\Debug\SingleDesignpattern_03.exe.config
+C:\Users\DELL\source\repos\B24_CodingStandard\SingleDesignpattern_03\bin\Debug\SingleDesignpattern_03.exe
+C:\Users\DELL\source\repos\B24_CodingStandard\SingleDesignpattern_03\bin\Debug\SingleDesignpattern_03.pdb
+C:\Users\DELL\source\repos\B24_CodingStandard\SingleDesignpattern_03\obj\Debug\SingleDesignpattern_03.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\B24_CodingStandard\SingleDesignpattern_03\obj\Debug\SingleDesignpattern_03.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\B24_CodingStandard\SingleDesignpattern_03\obj\Debug\SingleDesignpattern_03.exe
+C:\Users\DELL\source\repos\B24_CodingStandard\SingleDesignpattern_03\obj\Debug\SingleDesignpattern_03.pdb

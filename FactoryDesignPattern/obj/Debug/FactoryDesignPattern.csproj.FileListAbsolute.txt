@@ -1,0 +1,7 @@
+C:\Users\DELL\source\repos\B24_CodingStandard\FactoryDesignPattern\bin\Debug\FactoryDesignPattern.exe.config
+C:\Users\DELL\source\repos\B24_CodingStandard\FactoryDesignPattern\bin\Debug\FactoryDesignPattern.exe
+C:\Users\DELL\source\repos\B24_CodingStandard\FactoryDesignPattern\bin\Debug\FactoryDesignPattern.pdb
+C:\Users\DELL\source\repos\B24_CodingStandard\FactoryDesignPattern\obj\Debug\FactoryDesignPattern.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\B24_CodingStandard\FactoryDesignPattern\obj\Debug\FactoryDesignPattern.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\B24_CodingStandard\FactoryDesignPattern\obj\Debug\FactoryDesignPattern.exe
+C:\Users\DELL\source\repos\B24_CodingStandard\FactoryDesignPattern\obj\Debug\FactoryDesignPattern.pdb

@@ -1,37 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Parmesh Git\\Solid_Principle\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A910162B-E376-4D6E-8B1E-A48C30F7CEC9}|Crud_Demos_Using _Scafolding\\Crud_Demos_Operations.csproj|d:\\parmesh git\\solid_principle\\crud_demos_using _scafolding\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A910162B-E376-4D6E-8B1E-A48C30F7CEC9}|Crud_Demos_Using _Scafolding\\Crud_Demos_Operations.csproj|solutionrelative:crud_demos_using _scafolding\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\Parmesh Git\\Solid_Principle\\Crud_Demos_Using _Scafolding\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Crud_Demos_Using _Scafolding\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\Parmesh Git\\Solid_Principle\\Crud_Demos_Using _Scafolding\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Crud_Demos_Using _Scafolding\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T16:58:39.712Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

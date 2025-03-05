@@ -1,0 +1,7 @@
+C:\Users\DELL\source\repos\B24_CodingStandard\SRP_1\bin\Debug\SRP_1.exe.config
+C:\Users\DELL\source\repos\B24_CodingStandard\SRP_1\bin\Debug\SRP_1.exe
+C:\Users\DELL\source\repos\B24_CodingStandard\SRP_1\bin\Debug\SRP_1.pdb
+C:\Users\DELL\source\repos\B24_CodingStandard\SRP_1\obj\Debug\SRP_1.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\B24_CodingStandard\SRP_1\obj\Debug\SRP_1.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\B24_CodingStandard\SRP_1\obj\Debug\SRP_1.exe
+C:\Users\DELL\source\repos\B24_CodingStandard\SRP_1\obj\Debug\SRP_1.pdb
