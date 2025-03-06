@@ -29,5 +29,19 @@ namespace WebUI.Controllers
 
             return View(categories);
         }
+        [HttpGet]
+        public ActionResult Details(int id)
+        {
+            var category = _catBl.GetById(id);
+            return View(category);
+        }
+        [HttpDelete]
+        public ActionResult Delete()
+        {
+            return View();
+        }
+
+       
+
     }
 }

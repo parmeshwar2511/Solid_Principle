@@ -1,4 +1,5 @@
-﻿using DAL;
+﻿using AutoMapper;
+using DAL;
 using Repository;
 using Unity;
 
@@ -11,6 +12,7 @@ namespace BAL
             container.RegisterType<ProductDbContext>();
             container.RegisterType<ICategoryRepository, CategoryRepository>();
             container.RegisterType<ICategoryBL, CategoryBL>();
+            container.RegisterType<IMapper, IMapper>();
         }
     }
 }

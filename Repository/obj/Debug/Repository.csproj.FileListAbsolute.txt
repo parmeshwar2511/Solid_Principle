@@ -16,3 +16,21 @@ C:\Users\DELL\source\repos\B24_CodingStandard\Repository\bin\Debug\EntityFramewo
 C:\Users\DELL\source\repos\B24_CodingStandard\Repository\bin\Debug\log4net.dll
 C:\Users\DELL\source\repos\B24_CodingStandard\Repository\bin\Debug\log4net.pdb
 C:\Users\DELL\source\repos\B24_CodingStandard\Repository\bin\Debug\log4net.xml
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\Repository\bin\Debug\Repository.dll.config
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\Repository\bin\Debug\Repository.dll
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\Repository\bin\Debug\Repository.pdb
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\Repository\bin\Debug\DAL.dll
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\Repository\bin\Debug\EntityFramework.dll
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\Repository\bin\Debug\log4net.dll
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\Repository\bin\Debug\DAL.pdb
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\Repository\bin\Debug\DAL.dll.config
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\Repository\bin\Debug\EntityFramework.xml
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\Repository\bin\Debug\log4net.pdb
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\Repository\bin\Debug\log4net.xml
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\Repository\obj\Debug\Repository.csproj.AssemblyReference.cache
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\Repository\obj\Debug\Repository.csproj.Up2Date
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\Repository\obj\Debug\Repository.dll
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\Repository\obj\Debug\Repository.pdb

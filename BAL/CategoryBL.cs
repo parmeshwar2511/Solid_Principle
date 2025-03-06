@@ -13,10 +13,12 @@ namespace BAL
     public class CategoryBL : ICategoryBL
     {
         ICategoryRepository _cateRepo;
+        IMapper _mapper;
 
-        public CategoryBL( ICategoryRepository catRepo)
+        public CategoryBL(ICategoryRepository catRepo, IMapper mapper)
         {
             _cateRepo = catRepo;
+            _mapper = mapper;
         }
 
         public void Create(CategoryViewModel category)
@@ -33,12 +35,13 @@ namespace BAL
         public List<CategoryViewModel> GetAll()
         {
             var categories = _cateRepo.GetAll();
-            return Mapper.Map<List<CategoryViewModel>>(categories);
+            return _mapper.Map<List<CategoryViewModel>>(categories);
         }
 
         public CategoryViewModel GetById(int id)
         {
-            throw new NotImplementedException();
+            var category = _cateRepo.GetById(id);
+            return _mapper.Map<CategoryViewModel>(category);
         }
 
         public void Update(CategoryViewModel category)

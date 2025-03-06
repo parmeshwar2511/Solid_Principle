@@ -5,3 +5,10 @@ C:\Users\DELL\source\repos\B24_CodingStandard\SRP_1\obj\Debug\SRP_1.csproj.Assem
 C:\Users\DELL\source\repos\B24_CodingStandard\SRP_1\obj\Debug\SRP_1.csproj.CoreCompileInputs.cache
 C:\Users\DELL\source\repos\B24_CodingStandard\SRP_1\obj\Debug\SRP_1.exe
 C:\Users\DELL\source\repos\B24_CodingStandard\SRP_1\obj\Debug\SRP_1.pdb
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\SRP_1\bin\Debug\SRP_1.exe.config
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\SRP_1\bin\Debug\SRP_1.exe
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\SRP_1\bin\Debug\SRP_1.pdb
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\SRP_1\obj\Debug\SRP_1.csproj.AssemblyReference.cache
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\SRP_1\obj\Debug\SRP_1.csproj.CoreCompileInputs.cache
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\SRP_1\obj\Debug\SRP_1.exe
+D:\Parmesh Git\Coding Standard layer\Solid_Principle\SRP_1\obj\Debug\SRP_1.pdb

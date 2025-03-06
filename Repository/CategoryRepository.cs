@@ -34,7 +34,8 @@ namespace Repository
 
         public Category GetById(int id)
         {
-            throw new NotImplementedException();
+            return _dbContext.Categories.Find(id);
+
         }
 
         public void Update(Category category)

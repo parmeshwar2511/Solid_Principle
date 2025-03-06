@@ -1,3 +1,4 @@
+using AutoMapper;
 using BAL;
 using Repository;
 using System.Web.Mvc;
@@ -19,7 +20,14 @@ namespace Web_UI_client
 
             container.RegisterType<ICategoryBL, CategoryBL>();
             container.RegisterType<ICategoryRepository, CategoryRepository>();
-            
+            var config = new MapperConfiguration(cfg => {
+                cfg.AddProfile<MappingProfile>(); // your AutoMapper profile
+            });
+            IMapper mapper = config.CreateMapper();
+
+            // 2. Register AutoMapper instance
+            container.RegisterInstance<IMapper>(mapper);
+
             DependencyResolver.SetResolver(new UnityDependencyResolver(container));
         }
     }
